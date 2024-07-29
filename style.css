@@ -1,0 +1,41 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+}
+
+.require {
+    color: red;
+}
+
+.submit {
+    background-color: slateblue;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: transparent;
+    width: 10%;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: white;
+    color: slateblue;
+    border: slateblue 1px solid;
+}

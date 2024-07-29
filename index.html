@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h3>Job title and Department details</h3>
+    <form action="" class="form">
+        <label for="title"><span class="require">*</span><b>Job title</b></label>
+        <input type="text" name="title" />
+
+        <label for="location"><span class="require">*</span><b>Location</b></label>
+        <input type="text" name="location" />
+        
+        <label for="work-place"><span class="require">*</span><b>Work Place</b></label>
+        <div>
+            <input type="radio" name="work_place" id="wfh" value="wfh">Work From Home</input>
+            <input type="radio" name="work_place" id="hybrid" value="hybrid">Hybrid</input>
+            <input type="radio" name="work_place" id="onsite" value="value">Onsite</input>
+        </div>
+
+        <label for="about-role"><span class="require">*</span><b>About Role</b></label>
+        <textarea name="about_role" id="about-role" cols="30" rows="10"></textarea>
+
+        <label for="benefits"><b>Benefits</b></label>
+        <textarea name="benefits" id="benefits" cols="30" rows="10"></textarea>
+
+
+        <button type="submit" class="submit">Generate</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
